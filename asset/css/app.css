@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Augustina;
+    src: url(../fonts/Agustina.woff);
+}
+
+@font-face {
+    font-family: GoogleSansRegular;
+    src: url(../fonts/GoogleSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: GoogleSansMediumItalic;
+    src: url(../fonts/GoogleSans-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: GoogleSansMedium;
+    src: url(../fonts/GoogleSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: GoogleSansItalic;
+    src: url(../fonts/GoogleSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: GoogleSansBoldItalic;
+    src: url(../fonts/GoogleSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: GoogleSansBold;
+    src: url(../fonts/GoogleSans-Bold.ttf);
+}
+
+body {
+    background-color: #edf9fe;
+    color: #011d56;
+}
+
+nav {
+    padding: 3% 0 3% 0;
+    font-family: GoogleSansRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.text-primary {
+    color: #011d56 !important;
+}
+
+.nav-item:hover {
+    background-color: #9ae1fec2 !important;
+    padding: 0 2% 0 2% !important;
+}
+
+.toggle-color {
+    color: #343434 !important;
+    border: none;
+}
+
+.img-responsive {
+    max-width: 90% !important;
+}
+
+.dev-icons {
+    height: 50px;
+}
+
+.signature {
+    font-family: Augustina;
+    color: #001c55 !important;
+    font-size: 18px;
+    font-weight: 700 !important;
+}
+
+.title {
+    font-family: GoogleSansBold;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.nick {
+    font-family: GoogleSansBoldItalic;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.description {
+    font-family: GoogleSansMedium;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #7f8daa;
+}
+
+.social-icon-container {
+    width: 42px;
+    height: 42px;
+    color: white;
+    font-size: 25px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.bg-git {
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+
+.bg-google {
+    background-color: #ea4436;
+    color: white;
+    border-radius: 100%;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+
+.bg-twitter {
+    background-color: #1ea1f2;
+    color: white;
+    border-radius: 100%;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+
+.bg-fb {
+    background-color: #3c5a98;
+    color: white;
+    border-radius: 100%;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+
+.bg-ig {
+    background-color: #e44160;
+    color: white;
+    border-radius: 100%;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+
+.bg-codepen {
+    background-color: #011d56;
+    color: white;
+    border-radius: 100%;
+}
+
+.info-title {
+    font-family: GoogleSansRegular;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    border-radius: 100%;
+}
+
+.description-title {
+    font-family: GoogleSansRegular;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.school-card {
+    background-color: #86b7d6;
+    font-family: GoogleSansMedium;
+    font-weight: 700;
+    border-radius: 25%;
+}
+
+.school-name {
+    font-size: 23px;
+}
+
+.school-cert {
+    font-size: 18px;
+}
+
+.school-date {
+    font-family: GoogleSansRegular;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.project-card {
+    background-color: #a6e1fa;
+}
+
+.project-name {
+    font-family: GoogleSansRegular;
+    font-weight: 700;
+    font-size: 25px;
+    color: #001c55;
+}
+
+.project-description {
+    font-family: GoogleSansRegular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #001c55;
+}
+
+.active {
+    border: 2px solid #011d56;
+    border-radius: 15%;
+}
+
+.laptop-emoji {
+    font-size: 30px;
+}

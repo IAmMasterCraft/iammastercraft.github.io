@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Boluwaji's Portfolio">
+    <meta name="author" content="IAmMasterCraft">
+
+    <title>Boluwaji's Portfolio</title>
+
+    <!-- Bootstrap Boilerplate core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sumit-bootstrap-boilerplate@1.0.5/dist/theme.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- App.css -->
+    <link rel="stylesheet" href="./asset/css/app.css">
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body class='container'>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light static-top mt-5">
+        <div class="container">
+            <a class="navbar-brand text-primary" href="#">&lt; &nbsp; <span class="signature">@IAmMasterCraft</span> &nbsp; &nbsp; 👨🏽‍💻 &nbsp; /&gt;</a>
+            <button class="navbar-toggler toggle-color" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon toggle-color"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-2 active" id="nav-home">
+                        <a class="nav-link text-primary" href="#app/home">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2" id="nav-education">
+                        <a class="nav-link text-primary" href="#app/education">Education</a>
+                    </li>
+                    <li class="nav-item mx-2" id="nav-experience">
+                        <a class="nav-link text-primary" href="#app/experience">Experience</a>
+                    </li>
+                    <li class="nav-item mx-2" id="nav-project">
+                        <a class="nav-link text-primary" href="#app/project">Projects</a>
+                    </li>
+                    <li class="nav-item mx-2" id="nav-contact">
+                        <a class="nav-link text-primary" href="#app/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="root" class="animate__fadeInUp">
+
+    </div>
+    <footer class="mt-5 pt-5">
+        <p class="text-center description">
+            <b> 
+                @IAmMasterCraft </br>&copy;<span id="copyright-year">2020</span>
+            </b>
+        </p>
+    </footer>
+    <!-- Bootstrap BoilerPlate core JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/sumit-bootstrap-boilerplate@1.0.5/dist/app.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sumit-bootstrap-boilerplate@1.0.5/dist/app2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sumit-bootstrap-boilerplate@1.0.5/dist/app3.min.js"></script>
+    <!-- App.js -->
+    <script src="./asset/js/app.js"></script>
+    <script>
+        $(document).ready(() => {
+            try {
+                hashChange();
+            } catch (error) {
+                console.log(error.message);
+            } finally {
+                loadPage("home");
+            }
+        });
+    </script>
+</body>
+
+</html>
