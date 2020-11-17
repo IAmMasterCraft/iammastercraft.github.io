@@ -76,6 +76,8 @@
     <script src="./asset/js/app.js"></script>
     <script>
         $(document).ready(() => {
+            //copyright year
+            $(".copyright-year").text(new Date().getFullYear());
             try {
                 hashChange();
             } catch (error) {
